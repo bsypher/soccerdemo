@@ -21,20 +21,33 @@ body{
 	text-align:left;
 }
 #top_header{
-	background:purple;
+	background:#334276;
 	border: 1px solid blue;
-	color:pink;
-	padding:20px;
+	color:white;
+	padding: 20px;
+	vertical-align: top;
 }
+
 #top_menu{
 	background: pink;
 	color: purple;
 }
+
 #top_menu li{
 	display:inline-block;
 	list-style: none;
 	padding: 5px;
+	margin-right: 15px;
 	font: bold 14px Tahoma;
+}
+#top_menu input[type=text]{
+	float: right;
+	
+	border: none;
+	margin-top: 8px;
+	margin-right: 16px;
+	margin-bottom: 8px;
+	font-size: 12px;
 }
 #main_section{
 	float: left;
